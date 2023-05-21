@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .container {
+      margin-top: 0.2px; /* Increased margin */
+      margin-bottom: 0.2px; /* Increased margin */
+      color: #ffffff; /* Changed text color to white */
+    }
+    h1 {
+      font-size: 38px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: px;
+    }
+    .option {
+      width: 300px;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      background-color: rgb(219, 153, 153);
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-size: cover;
+      background-position: center;
+      cursor: pointer;
+    }
+    .option:hover {
+      background-color: #e9ecef;
+    }
+    .option-icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #343a40;
+    }
+    .bread-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+    .bread-image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    body {
+      background-image: url("what pics go with what articles.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">The Place For Bread</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Options.html">Options</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>MORE FAMOUS OPTIONS</h1>
+    <p>These bread shown below are renowned all over the world... and we have them ALL!</p>
+    <div class="options">
+        
+      </div>
+      
+      <div class="bread-images">
+        <img src="baguette.jpg" alt="Bread 1" class="bread-image">
+        <img src="Focaccia.jpg" alt="Bread 2" class="bread-image">
+        <img src="naan.jpg" alt="Bread 3" class="bread-image">
+        <img src="pretzel.jpg" alt="Bread 4" class="bread-image">
+        <img src="roti.jpg" alt="Bread 5" class="bread-image">
+        <img src="shaobing.jpg" alt="Bread 6" class="bread-image">
+        <img src="ciabata.jpg" alt="Bread 6" class="bread-image">
+        <img src="eglish muffin.jpg" alt="Bread 5" class="bread-image">
+        <img src="challah.jpg" alt="Bread 6" class="bread-image">
+        <img src="mantou.jpg" alt="Bread 6" class="bread-image">
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
