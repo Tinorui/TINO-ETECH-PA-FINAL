@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Bread House</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .card {
+      border: none;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .card-img-top {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">The Place For Bread</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Options.html">Options</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    </div>
+  </nav>
+  
+  
+
+  <!-- Hero Section -->
+  <section id="hero" class="text-white text-center py-5" style="background-image: url(bbakery.jpg);">
+  </section>
+
+  <!-- About Section -->
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2 class="text-dark">About The Owner</h2>
+          <p class="text-dark">Allow us to introduce you to the creative genius and mastermind behind the delectable treats at The Bread Palace. With an unwavering passion for the art of baking and an impeccable attention to detail, Kristino has curated a truly exceptional bakery experience. With a wealth of experience spanning numerous years in the industry, Kristino has honed their skills and perfected a repertoire of mouthwatering recipes that will transport you to a world of pure indulgence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Featured Breads Section -->
+  <section id="featured-breads" class="bg-dark py-5">
+    <div class="container">
+      <h2 class="text-center text-white mb-4 fw-bold display-4">Best Sellers</h2>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="card mb-4">
+            <img src="Crumpet.jpg" class="card-img-top d-block">
+            <div class="card-body">
+              <p class="card-text">A British teatime treat, crumpet is a small round bread or cake that is traditionally cooked in a special crumpet ring on a griddle.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="card mb-4">
+            <img src="pumpernickel.jpg" class="card-img-top d-block">
+            <div class="card-body">
+              <p class="card-text">This heavy and slightly sweet rye bread is made from a sourdough starter and coarsely ground rye with whole rye berries as its base.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="card mb-4">
+            <img src="tortilla.jpg" class="card-img-top d-block">
+            <div class="card-body">
+              <p class="card-text">Originally a corn flatbread, one of the essential bread varieties that has been present in Mexican culture for thousands of years.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, 'Times New Roman', Times, serif;
+      background-color: #ffffff;
+      margin: 0;
+      background-image: url("what pics go with what articles.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .navbar-brand {
+      font-weight: lighter;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      color: #ffffff;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">The Place For Bread</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="options.html">Options</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h1 class="display-4 text-center">ABOUT US</h1>
+        <p class="lead text-center">Welcome to The Place For Bread! We showcase famous bread from different countries.</p>
+        <p>At The Place For Bread, we are passionate about bringing you the finest bread varieties that represent the rich culinary traditions of various cultures. Our mission is to provide you with an exceptional bread experience that delights your taste buds and celebrates the art of baking.</p>
+        <p>With our carefully curated selection of bread, we aim to take you on a journey of flavors, textures, and aromas. Each bread is crafted with love and attention to detail, using the finest ingredients and time-honored techniques.</p>
+        <p>Whether you're a bread enthusiast, a food lover, or simply curious about exploring different bread cultures, we invite you to join us on this delicious adventure. Contact us today to learn more about how we can assist you with your bread needs.</p>
+        <p>We are proud to offer a wide range of bread for sale, including traditional favorites and unique creations. Browse our selection and place your order to experience the joy of freshly baked bread delivered to your doorstep.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - The Bread House</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            margin-bottom: 70px;
+        }
+        .page-header {
+            padding: 35px 0;
+            background-color: #f8f9fa;
+        }
+        .service-item {
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .bread-icon {
+            color: #dc3545;
+            margin-bottom: 20px;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+            line-height: 70px;
+            background-color: #343a40;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">The Place For Bread</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Options.html">Options</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Our Services</h1>
+        </div>
+    </header>
+
+    <!-- Service Items -->
+    <section id="services" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <i class="fas fa-globe fa-3x bread-icon"></i>
+                        <h3>Delivery to all countries</h3>
+                        <p>We deliver our freshly baked bread to customers in all countries, ensuring you can enjoy our delicious treats no matter where you are.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <i class="fas fa-utensils fa-3x bread-icon"></i>
+                        <h3>Fresh and Clean</h3>
+                        <p>We take pride in offering bread that is always fresh and clean. Our commitment to quality ensures that you receive the finest and most delightful bread every time.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <i class="fas fa-clock fa-3x bread-icon"></i>
+                        <h3>Always available</h3>
+                        <p>Our bakery is always open, ensuring you have access to our delectable bread whenever you desire. We are dedicated to providing our customers with a consistent and reliable bread supply.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <i class="fas fa-dollar-sign fa-3x bread-icon"></i>
+                        <h3>Cheap and Reasonable prices</h3>
+                        <p>We offer our bread at affordable and reasonable prices, allowing you to indulge in the goodness of freshly baked bread without breaking the bank. Enjoy our high-quality bread without compromising your budget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center">
+        <div class="container">
+            <span>&copy; 2023 The Bread House. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Place For Bread - Contact</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .hero-section {
+      background-image: url("Untitled design.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 150px 0;
+    }
+
+    .hero-section h1 {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .hero-section p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .hero-section .btn {
+      font-size: 18px;
+      padding: 10px 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">The Place For Bread</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="options.html">Options</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to The Bread Palace</h1>
+      <p class="lead">Experience the joy of freshly baked bread every day.</p>
+      <a href="#contact" class="btn btn-light btn-lg">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="mb-4">Get in Touch</h3>
+          <form action="#" method="POST">
+            <div class="form-group">
+              <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" placeholder="Your Message"
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h3 class="mb-4">Contact Information</h3>
+          <p>If you have any questions or inquiries, feel free to reach out to us using the contact details below:</p>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-map-marker-alt"></i> 1231 Cornelia Street, Mexico City, Mexico</li>
+            <li><i class="fas fa-phone"></i> 0917 829 1992</li>
+            <li><i class="fas fa-envelope"></i> ruizkristinodlagrade11@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2023 The Place For Bread. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .container {
+      margin-top: 0.2px; /* Increased margin */
+      margin-bottom: 0.2px; /* Increased margin */
+      color: #ffffff; /* Changed text color to white */
+    }
+    h1 {
+      font-size: 38px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: px;
+    }
+    .option {
+      width: 300px;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      background-color: rgb(219, 153, 153);
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-size: cover;
+      background-position: center;
+      cursor: pointer;
+    }
+    .option:hover {
+      background-color: #e9ecef;
+    }
+    .option-icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #343a40;
+    }
+    .bread-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+    .bread-image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    body {
+      background-image: url("what pics go with what articles.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">The Place For Bread</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Options.html">Options</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>MORE FAMOUS OPTIONS</h1>
+    <p>These bread shown below are renowned all over the world... and we have them ALL!</p>
+    <div class="options">
+        
+      </div>
+      
+      <div class="bread-images">
+        <img src="baguette.jpg" alt="Bread 1" class="bread-image">
+        <img src="Focaccia.jpg" alt="Bread 2" class="bread-image">
+        <img src="naan.jpg" alt="Bread 3" class="bread-image">
+        <img src="pretzel.jpg" alt="Bread 4" class="bread-image">
+        <img src="roti.jpg" alt="Bread 5" class="bread-image">
+        <img src="shaobing.jpg" alt="Bread 6" class="bread-image">
+        <img src="ciabata.jpg" alt="Bread 6" class="bread-image">
+        <img src="eglish muffin.jpg" alt="Bread 5" class="bread-image">
+        <img src="challah.jpg" alt="Bread 6" class="bread-image">
+        <img src="mantou.jpg" alt="Bread 6" class="bread-image">
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
